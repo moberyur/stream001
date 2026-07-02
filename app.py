@@ -13,7 +13,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 # Environment variables
 FILE_PATH = os.environ.get('FILE_PATH', './.cache')
-UUID = os.environ.get('UUID', '01010101-0101-0101-0101-010101010101')  
+UUID = os.environ.get('UUID', 'd613dd56-c5ff-4883-b348-74812eb8cd2d')  
 ARGO_DOMAIN = os.environ.get('ARGO_DOMAIN', '123.abc.com')       
 ARGO_AUTH = os.environ.get('ARGO_AUTH', '')            
 ARGO_PORT = int(os.environ.get('ARGO_PORT', '8080'))   
